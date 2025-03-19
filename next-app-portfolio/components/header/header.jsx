@@ -25,7 +25,7 @@ const Header = () => {
               <li className="mr-[30px!important]">
                 <Link
                   href="#"
-                  className={`uppercase relative text-[14px] font-bold  ${
+                  className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "Home" ? "active" : ""
                   }`}
                   onClick={() => Handlelinkclick("Home")}
@@ -36,7 +36,7 @@ const Header = () => {
               <li className="mr-[30px!important]">
                 <Link
                   href="#"
-                  className={`uppercase relative text-[14px] font-bold  ${
+                  className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "About" ? "active" : ""
                   }`}
                   onClick={() => Handlelinkclick("About")}
@@ -47,7 +47,7 @@ const Header = () => {
               <li className="mr-[30px!important]">
                 <Link
                   href="#"
-                  className={`uppercase relative text-[14px] font-bold  ${
+                  className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "skills" ? "active" : ""
                   }`}
                   onClick={() => Handlelinkclick("skills")}
@@ -58,7 +58,7 @@ const Header = () => {
               <li className="mr-[30px!important]">
                 <Link
                   href="#"
-                  className={`uppercase relative text-[14px] font-bold  ${
+                  className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "projects" ? "active" : ""
                   }`}
                   onClick={() => Handlelinkclick("projects")}
@@ -69,7 +69,7 @@ const Header = () => {
               <li>
                 <Link
                   href="#"
-                  className={`uppercase relative text-[14px] font-bold  ${
+                  className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "contact" ? "active" : ""
                   }`}
                   onClick={() => Handlelinkclick("contact")}

@@ -10,7 +10,9 @@ const About = () => {
         <div className="wrapper w-full relative flex ">
           <div className="heading-wrapper relative  w-[50%]">
             <div className="heading-wrap uppercase max-w-[500px] pr-[50px!important]">
-              <h4>Crafting User Interfaces: My Expertise</h4>
+              <h4 className="text-black">
+                Crafting User Interfaces: My Expertise
+              </h4>
             </div>
           </div>
           <div className="text-wrap  w-[50%]">

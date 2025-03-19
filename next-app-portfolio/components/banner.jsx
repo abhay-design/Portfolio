@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="container">
         <div className="wrapper w-full flex flex-wrap">
           <div className="text-wrap relative max-w-[600px]">
-            <h1 className="uppercase mb-[40px!important]">
+            <h1 className="uppercase text-black mb-[40px!important]">
               Hi, <br /> I'm <span className="vivid-blue">Abhay</span> <br />{" "}
               Web Dev
             </h1>
