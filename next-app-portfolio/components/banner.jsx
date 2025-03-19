@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section className="banner w-full">
+    <section className="banner w-full items-center min-h-[500px]">
       <div className="container">
         <div className="wrapper w-full flex flex-wrap">
           <div className="text-wrap relative max-w-[600px]">

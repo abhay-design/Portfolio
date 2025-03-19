@@ -32,6 +32,7 @@ body {
   --white: #fff;
   --davy-black: #0e2431;
   --vivid-blue: #4070f4;
+  --gray: rgb(243 244 246);
 }
 
 .container {
@@ -68,12 +69,30 @@ h1,
   line-height: 1.2;
 }
 
+h4,
+.h4 {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+p,
+.p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .davy-black {
   color: var(--davy-black);
 }
 
 .vivid-blue {
   color: var(--vivid-blue);
+}
+
+.bg-gray {
+  background: var(--gray);
 }
 
 .shadow {
@@ -91,4 +110,16 @@ h1,
   padding: 12px 40px;
   font-weight: 600;
   border-radius: 8px;
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 120px;
+  height: 3px;
+  transform: translate(-50%, -50%);
+  background: var(--vivid-blue);
+  transition: all 0.3s ease-in-out;
 }
