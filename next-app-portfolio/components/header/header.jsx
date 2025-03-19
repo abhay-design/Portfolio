@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full pt-[20px!important] pb-[20px!important] bg-white z-[20] top-0 relative shadow">
+    <header className="w-full fixed pt-[20px!important] pb-[20px!important] bg-white z-[20] top-0  shadow">
       <div className="container">
         <div className="wrapper relative flex flex-wrap justify-between w-full">
           <div className="logo-wrap relative max-w-[50px]">
