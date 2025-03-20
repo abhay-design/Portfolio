@@ -110,6 +110,19 @@ p,
   color: var(--vivid-blue);
 }
 
+.text-40 {
+  font-size: 40px;
+}
+
+.text-xl {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bg-blue {
+  background: var(--vivid-blue);
+}
+
 .bg-gray {
   background: var(--gray);
 }
@@ -145,4 +158,8 @@ p,
 
 .dev_process .intro {
   margin: 0 auto;
+}
+
+.projects .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

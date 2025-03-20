@@ -39,7 +39,7 @@ const Skills = () => {
             fantastic tools and resources on a daily basis.
           </p>
         </div>
-        <div className="wrapper w-full flex flex-wrap relative">
+        <div className="wrapper w-[calc(100%+20px)] ml-[-10px!important]  flex flex-wrap relative">
           {logos.map((wrap, index) => (
             <div
               className="logo-wrap w-[calc(25%-20px)] mx-[10px!important] mb-[20px!important] p-[16px!important] min-h-[275px] flex flex-wrap justify-center items-center border"
