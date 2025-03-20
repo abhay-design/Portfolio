@@ -82,10 +82,23 @@ h5,
   line-height: 1.2;
 }
 
+h6,
+.h6 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 p,
 .p {
   font-size: 18px;
   line-height: 1.5;
+  font-weight: 400;
+}
+
+.text-sm {
+  font-size: 16px;
+  line-height: 1.2;
   font-weight: 400;
 }
 
@@ -128,4 +141,8 @@ p,
   transform: translate(-50%, -50%);
   background: var(--vivid-blue);
   transition: all 0.3s ease-in-out;
+}
+
+.dev_process .intro {
+  margin: 0 auto;
 }

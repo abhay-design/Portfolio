@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import Banner from "../components/banner";
 import About from "../components/about";
 import Skills from "../components/skills";
+import Process from "../components/process";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -15,6 +16,7 @@ export default function Home() {
       <Banner />
       <About />
       <Skills />
+      <Process />
     </div>
   );
 }

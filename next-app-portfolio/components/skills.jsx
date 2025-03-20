@@ -31,9 +31,9 @@ const Skills = () => {
     <section className="skills">
       <div className="container">
         <div className="intro w-full text-center mb-[48px!important]">
-          <h5 className="text-black mb-[12px!important]">
-            Skills And Expertise
-          </h5>
+          <h4 className="vivid-blue relative heading mb-[30px!important]">
+            Skills
+          </h4>
           <p className="text-black">
             What truly excites me about my work is the opportunity to utilize
             fantastic tools and resources on a daily basis.
@@ -41,7 +41,10 @@ const Skills = () => {
         </div>
         <div className="wrapper w-full flex flex-wrap relative">
           {logos.map((wrap, index) => (
-            <div className="logo-wrap w-[calc(25%-20px)] mx-[10px!important] mb-[20px!important] p-[16px!important] min-h-[275px] flex flex-wrap justify-center items-center border">
+            <div
+              className="logo-wrap w-[calc(25%-20px)] mx-[10px!important] mb-[20px!important] p-[16px!important] min-h-[275px] flex flex-wrap justify-center items-center border"
+              key={index}
+            >
               <div className="logo max-w-[100px] h-[100px]">
                 <Image
                   src={wrap.img}
