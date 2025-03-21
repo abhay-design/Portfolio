@@ -25,7 +25,7 @@ const Process = () => {
     <section className="dev_process bg-gray">
       <div className="container">
         <div className="intro text-center max-w-[1024px] mx-auto mb-[48px!important]">
-          <h5>
+          <h5 className="text-black">
             I bring user interfaces to life through a balanced fusion of design
             craftsmanship and technical implementation.
           </h5>
@@ -45,8 +45,10 @@ const Process = () => {
                   alt="logo"
                 />
               </div>
-              <h6 className="mb-[12px!important] w-full">{wrap.heading}</h6>
-              <p className="text-sm">{wrap.paragraph}</p>
+              <h6 className="mb-[12px!important] text-black w-full">
+                {wrap.heading}
+              </h6>
+              <p className="text-sm text-black">{wrap.paragraph}</p>
             </div>
           ))}
         </div>
