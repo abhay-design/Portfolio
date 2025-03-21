@@ -32,6 +32,7 @@ body {
   --davy-black: #0e2431;
   --vivid-blue: #4070f4;
   --gray: rgb(243 244 246);
+  --deep-ocean: #0e2431;
 }
 
 .container {
@@ -125,6 +126,10 @@ p,
 
 .bg-gray {
   background: var(--gray);
+}
+
+.bg-ocean {
+  background: var(--deep-ocean);
 }
 
 .shadow {
