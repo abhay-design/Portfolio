@@ -1,0 +1,13 @@
+.list a::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  border-bottom: 3px solid #4070f4;
+  transition: all 0.3s ease-in-out;
+}
+
+.list a:hover::before {
+  width: 100%;
+}

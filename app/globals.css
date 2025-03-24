@@ -20,7 +20,159 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --white: #fff;
+  --davy-black: #0e2431;
+  --vivid-blue: #4070f4;
+  --gray: rgb(243 244 246);
+  --deep-ocean: #0e2431;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.emptylink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 0;
+}
+
+.emptylink::before {
+  display: none;
+}
+
+section {
+  padding: 60px 0;
+  position: relative;
+}
+
+h1,
+.h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h4,
+.h4 {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+h5,
+.h5 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h6,
+.h6 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p,
+.p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.text-sm {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.davy-black {
+  color: var(--davy-black);
+}
+
+.vivid-blue {
+  color: var(--vivid-blue);
+}
+
+.text-40 {
+  font-size: 40px;
+}
+
+.text-xl {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bg-blue {
+  background: var(--vivid-blue);
+}
+
+.bg-gray {
+  background: var(--gray);
+}
+
+.bg-ocean {
+  background: var(--deep-ocean);
+}
+
+.shadow {
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.active::before {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--vivid-blue);
+  color: var(--white);
+  padding: 12px 40px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 120px;
+  height: 3px;
+  transform: translate(-50%, -50%);
+  background: var(--vivid-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.dev_process .intro {
+  margin: 0 auto;
+}
+
+.projects .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
