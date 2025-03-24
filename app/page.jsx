@@ -2,8 +2,8 @@ import { Poppins } from "next/font/google";
 import Banner from "../components/banner";
 import About from "../components/about";
 import Skills from "../components/skills";
-// import Process from "../components/process";
-// import Project from "../components/projects";
+import Process from "../components/process";
+import Project from "../components/projects";
 // import Contact from "../components/contact";
 
 const poppins = Poppins({
@@ -18,9 +18,9 @@ export default function Home() {
       <Banner />
       <About />
       <Skills />
-      {/* <Process />
+      <Process />
       <Project />
-      <Contact /> */}
+      {/* <Contact /> */}
     </div>
   );
 }
