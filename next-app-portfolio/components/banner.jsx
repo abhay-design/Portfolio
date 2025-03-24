@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className="banner w-full items-center min-h-[500px]" id="Home">
       <div className="container">
-        <div className="wrapper w-full flex flex-wrap">
+        <div className="wrapper w-full flex flex-wrap items-center justify-between">
           <div className="text-wrap relative max-w-[600px]">
             <h1 className="uppercase text-black mb-[40px!important]">
               Hi, <br /> I'm <span className="vivid-blue">Abhay</span> <br />{" "}
@@ -44,6 +44,15 @@ const Banner = () => {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="img-wrapper max-w-[300px] h-[300px] w-full ">
+            <img
+              src="/perfil.png"
+              alt="main-img"
+              width={1000}
+              height={1000}
+              className="w-full h-full object-cover rounded-[50%]"
+            />
           </div>
         </div>
       </div>
