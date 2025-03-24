@@ -24,7 +24,7 @@ const Header = () => {
             <ul className="flex flex-wrap">
               <li className="mr-[30px!important]">
                 <Link
-                  href="#"
+                  href="#Home"
                   className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "Home" ? "active" : ""
                   }`}
@@ -35,7 +35,7 @@ const Header = () => {
               </li>
               <li className="mr-[30px!important]">
                 <Link
-                  href="#"
+                  href="#About"
                   className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "About" ? "active" : ""
                   }`}
@@ -46,7 +46,7 @@ const Header = () => {
               </li>
               <li className="mr-[30px!important]">
                 <Link
-                  href="#"
+                  href="#Skills"
                   className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "skills" ? "active" : ""
                   }`}
@@ -57,7 +57,7 @@ const Header = () => {
               </li>
               <li className="mr-[30px!important]">
                 <Link
-                  href="#"
+                  href="#Projects"
                   className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "projects" ? "active" : ""
                   }`}
@@ -68,7 +68,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#Contact"
                   className={`uppercase relative text-[14px] font-bold text-black ${
                     activelink === "contact" ? "active" : ""
                   }`}

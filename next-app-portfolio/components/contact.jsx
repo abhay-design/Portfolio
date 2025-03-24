@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="contact-form">
+    <section className="contact-form" id="Contact">
       <div className="container">
         <div className="intro mb-[50px!important]">
           <h4 className="heading text-center vivid-blue relative">Contact</h4>

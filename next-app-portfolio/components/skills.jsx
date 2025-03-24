@@ -28,7 +28,7 @@ const Skills = () => {
     },
   ];
   return (
-    <section className="skills">
+    <section className="skills" id="Skills">
       <div className="container">
         <div className="intro w-full text-center mb-[48px!important]">
           <h4 className="vivid-blue relative heading mb-[30px!important]">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="about bg-gray">
+    <section className="about bg-gray" id="About">
       <div className="container">
         <h4 className="text-center vivid-blue relative heading mb-[50px!important]">
           About

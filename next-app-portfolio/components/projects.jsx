@@ -24,7 +24,7 @@ const Project = () => {
     },
   ];
   return (
-    <section className="projects bg-blue">
+    <section className="projects bg-blue" id="Projects">
       <div className="container">
         <div className="intro mb-[64px!important] relative">
           <h5 className="text-40 text-white mb-[12px!important]">
