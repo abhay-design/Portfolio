@@ -1,4 +1,4 @@
-ul a::before {
+.list a::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -8,6 +8,6 @@ ul a::before {
   transition: all 0.3s ease-in-out;
 }
 
-ul a:hover::before {
+.list a:hover::before {
   width: 100%;
 }

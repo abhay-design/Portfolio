@@ -62,7 +62,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="list-wrap relative">
-            <ul className="flex flex-wrap">
+            <ul className={`${Styles.list} flex flex-wrap`}>
               <li className="mr-[30px!important]">
                 <Link
                   href="#Home"
