@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Styles from "./header.module.css";
 import { useState } from "react";
+import { useEffect } from "react";
 
 const Header = () => {
   const [activelink, setactivelink] = useState("Home");
@@ -10,6 +11,46 @@ const Header = () => {
   const Handlelinkclick = (linkname) => {
     setactivelink(linkname);
   };
+  useEffect(() => {
+    const sections = [
+      { id: "Home", name: "Home" },
+      { id: "About", name: "About" },
+      { id: "Skills", name: "skills" },
+      { id: "Projects", name: "projects" },
+      { id: "Contact", name: "contact" },
+    ];
+
+    const observerOptions = {
+      root: null,
+      rootMargin: "-60px 0px -100% 0px",
+      threshold: 0,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const sectionName = sections.find(
+            (section) => section.id === entry.target.id
+          )?.name;
+          if (sectionName) {
+            setactivelink(sectionName);
+          }
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach((section) => {
+      const element = document.getElementById(section.id);
+      if (element) observer.observe(element);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        const element = document.getElementById(section.id);
+        if (element) observer.unobserve(element);
+      });
+    };
+  }, []);
 
   return (
     <header className="w-full fixed pt-[20px!important] pb-[20px!important] bg-white z-[20] top-0  shadow">
