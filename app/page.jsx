@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google";
 import Banner from "../components/banner";
-// import About from "../components/about";
-// import Skills from "../components/skills";
+import About from "../components/about";
+import Skills from "../components/skills";
 // import Process from "../components/process";
 // import Project from "../components/projects";
 // import Contact from "../components/contact";
@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div className={poppins.className}>
       <Banner />
-      {/* <About />
+      <About />
       <Skills />
-      <Process />
+      {/* <Process />
       <Project />
       <Contact /> */}
     </div>
