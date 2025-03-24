@@ -12,7 +12,7 @@ const Banner = () => {
               Web Dev
             </h1>
             <div className="btn-wrap mb-[25px!important]">
-              <Link href="#" className="button">
+              <Link href="#Contact" className="button">
                 Contact
               </Link>
             </div>

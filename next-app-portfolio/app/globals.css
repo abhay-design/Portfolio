@@ -153,6 +153,10 @@ p,
   border-radius: 8px;
 }
 
+.button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
 .heading::before {
   content: "";
   position: absolute;
