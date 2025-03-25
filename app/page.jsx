@@ -4,7 +4,7 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Process from "../components/process";
 import Project from "../components/projects";
-// import Contact from "../components/contact";
+import Contact from "../components/contact";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -20,7 +20,7 @@ export default function Home() {
       <Skills />
       <Process />
       <Project />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
