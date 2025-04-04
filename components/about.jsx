@@ -29,6 +29,15 @@ const About = () => {
                 where I indulge in the art of web design, striving to deliver
                 engaging and user-centric digital solutions.
               </p>
+              <p className="pt-[10px!important] flex flex-wrap items-center">
+                <span className="text-black text-[60px] pr-[16px!important] font-bold">
+                  2+
+                </span>
+                <span className="uppercase font-medium">
+                  years <br />
+                  of digital exprience
+                </span>
+              </p>
             </div>
           </div>
         </div>
