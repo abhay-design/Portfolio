@@ -11,3 +11,7 @@
 .list a:hover::before {
   width: 100%;
 }
+
+.list a.active::before {
+  width: 100% !important;
+}
